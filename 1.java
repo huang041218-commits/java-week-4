@@ -6,19 +6,19 @@ C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS
 Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
-public class Ex1_1 {
-	public static void main(String[] args) {
+public class Ex1_1 
+{
+	public static void main(String[] args) 
+	{
 		int i, sum = 0;
 		
 		i = 1;
-		while (i <= 10)
-	    while (true) {
+		do {
 	        sum = sum + i;
 	        i = i+1;
-	        if (i > 10);
-	             break ;
-	    }
+	       } while (i <= 10);
 		
 		System.out.println("1+2+…+10=" + sum);
+
 	}
 }
